@@ -37,7 +37,7 @@ type Order struct {
 }
 
 type Item struct {
-	ChrtID      string `json:"chrt_id"`
+	ChrtID      int    `json:"chrt_id"`
 	TrackNumber string `json:"track_number"`
 	Price       int    `json:"price"`
 	Rid         string `json:"rid"`
